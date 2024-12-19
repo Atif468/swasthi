@@ -7,12 +7,12 @@ import { FaTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-[#2c1c18] to-[#4a322d] text-white py-8">
-      <div className="max-w-7xl mx-auto flex flex-wrap justify-evenly">
-        <div className="w-full md:w-1/2 lg:flex-1">
+      <div className="max-w-7xl mx-auto flex flex-wrap justify-evenly space-y-8 md:space-y-0">
+         <div className="w-full md:w-1/2 lg:flex-1 px-4">
           <div className="flex items-center space-x-2">
             <img src="/Logo.png" alt="logo" className="w-8 h-8" />
             <h1 className="text-orange-500 text-xl font-bold bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
-              <img src="/Swasthi.png" className="h-6 w-auto" alt="" />
+              <img src="/Swasthi.png" className="h-6 w-auto" alt="Swasthi Logo" />
             </h1>
           </div>
           <p className="mt-2 text-sm">
@@ -22,7 +22,7 @@ const Footer = () => {
           </p>
           <p className="mt-4 text-sm">
             <a href="mailto:help-support@fitnearn.com">
-              <img src="/email.png" alt="" className="inline mr-2" />
+              <img src="/email.png" alt="Email Icon" className="inline mr-2" />
               help-support@fitnearn.com
             </a>
           </p>
@@ -36,13 +36,13 @@ const Footer = () => {
             <a href="#" aria-label="Instagram" className="bg-gray-700 p-2 rounded-full">
               <IoLogoInstagram />
             </a>
-            <a href="#" aria-label="Pinterest" className="bg-gray-700 p-2 rounded-full">
+            <a href="#" aria-label="Github" className="bg-gray-700 p-2 rounded-full">
               <IoLogoGithub />
             </a>
           </div>
         </div>
 
-        <div className="w-1/2 md:w-1/4 lg:flex-1">
+         <div className="w-1/2 md:w-1/4 lg:flex-1 px-4">
           <h4 className="font-semibold text-lg mb-4">Useful Links</h4>
           <ul className="space-y-2 text-sm">
             <li>
@@ -68,7 +68,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="w-1/2 md:w-1/4 lg:flex-1">
+         <div className="w-1/2 md:w-1/4 lg:flex-1 px-4">
           <h4 className="font-semibold text-lg mb-4">Help & Support</h4>
           <ul className="space-y-2 text-sm">
             <li>
@@ -89,7 +89,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="w-full md:w-1/2 lg:flex-1">
+         <div className="w-full md:w-1/2 lg:flex-1 px-4">
           <h4 className="font-semibold text-lg mb-4">Download App</h4>
           <div className="space-y-4">
             <a
@@ -126,7 +126,7 @@ const Footer = () => {
       </div>
 
       <hr className="border-t my-6 px-16" />
-      <div className="flex justify-between text-center text-sm px-16">
+      <div className="flex flex-col md:flex-row justify-between text-center text-sm px-16 space-y-4 md:space-y-0">
         <p>© Copyright 2024, All Rights Reserved.</p>
         <p>Made with ❤️ in India</p>
         <p>Design and Developed by FitnEarn</p>
