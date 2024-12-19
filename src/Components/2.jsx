@@ -6,9 +6,10 @@ const FeaturesSection = () => {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center text-4xl font-bold mb-6">
           Boost Your Health with Swasthi's
-          <span className="text-orange-500"> Essential Features</span>
+          <br />
+          <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent"> Essential Features</span>
         </h2>
-        <p className="text-center text-orange-400 mb-12">
+        <p className="text-center mb-12">
           Explore Swasthi’s powerful tools—from mood and fitness tracking to
           comprehensive health assessments in multiple languages.
         </p>
@@ -23,6 +24,7 @@ const FeaturesSection = () => {
                 <h3 className="text-xl font-bold text-white mb-2">
                   Mood Tracking
                 </h3>
+                {/* <div className="h"></div> */}
                 <p className="text-gray-400 text-sm">
                   Helps you monitor your mood patterns, offering personalized
                   insights to maintain a balanced mind and body.
