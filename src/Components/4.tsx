@@ -55,7 +55,7 @@ export default function Download() {
                   </button>
                 </DialogTrigger>
                 <DialogContent className="download-btn-modal-card w-[300px] md:w-full sm:max-w-[495px] flex flex-col justify-center items-center pb-8">
-                  <h6>Coming Soon</h6>
+                  <h6>Comming Soon</h6>
                   <h4 className="w-[240px] md:w-[300px] text-[#E5E5E5] text-[24px] md:text-[33px] text-center leading-normal">
                     Scan & Download{" "}
                     <span className="mid-heading bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent font-bold text-[28px] md:text-[38px]">
@@ -109,7 +109,7 @@ export default function Download() {
                   </button>
                 </DialogTrigger>
                 <DialogContent className="download-btn-modal-card w-[300px] md:w-full sm:max-w-[495px] flex flex-col justify-center items-center pb-8">
-                  <h6>Coming Soon</h6>
+                  <h6>Comming Soon</h6>
                   <h4 className="w-[240px] md:w-[300px] text-[#E5E5E5] text-[24px] md:text-[33px] text-center leading-normal">
                     Scan & Download{" "}
                     <span className="mid-heading bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent font-bold text-[28px] md:text-[38px]">
