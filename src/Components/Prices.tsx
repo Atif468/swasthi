@@ -84,18 +84,7 @@ const pricingData = [
                   key={featureIndex}
                   className="flex items-center gap-2 text-[#F5F5F5] text-[14px]"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="none"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M9.4 1.25a2 2 0 00-2.8 0L5.87 1.87a2 2 0 01-1.22.5l-.96.08a2 2 0 00-1.98 2v.96a2 2 0 01-.5 1.22l-.62.73a2 2 0 000 2.82l.62.73a2 2 0 01.5 1.22v.96a2 2 0 002 1.98l.96.08a2 2 0 011.22.5l.73.62a2 2 0 002.82 0l.73-.62a2 2 0 011.22-.5l.96-.08a2 2 0 002-1.98v-.96a2 2 0 01.5-1.22l.62-.73a2 2 0 000-2.82l-.62-.73a2 2 0 01-.5-1.22v-.96a2 2 0 00-1.98-2l-.96-.08a2 2 0 01-1.22-.5L9.4 1.25zM11.94 7.26a1 1 0 10-1.42-1.42L6.92 9.52 5.44 8.05a1 1 0 00-1.42 1.42l2.17 2.17a1 1 0 001.42 0l4.33-4.33z"
-                      fill="#F5F5F5"
-                    />
-                  </svg>
+                  <img src="/check-circle-1.png" alt="none" />
                   <span>{feature}</span>
                 </div>
               ))}

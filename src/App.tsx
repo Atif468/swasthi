@@ -19,7 +19,7 @@ function App() {
       <HowitWorks />
       <PricingTitle />
       <Pricing />
-       <Download />
+      <Download />
       <Footer />
      </>
   );
