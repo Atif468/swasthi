@@ -114,7 +114,7 @@ const Footer = () => {
 
         <div className="w-full md:w-1/2 lg:flex-1 px-4">
           <h4 className="font-semibold text-lg mb-4">Download App</h4>
-          <div className="space-y-4">
+          <div className="flex flex-wrap gap-2">
             <a
               href="#"
               className="inline-flex items-center justify-center gap-2 border-2 bg-gradient-to-r from-orange-600 to-yellow-500 text-white font-semibold px-6 py-2 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"

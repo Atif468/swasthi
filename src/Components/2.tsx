@@ -21,7 +21,7 @@ const FeaturesSection = () => {
              <div className="flex-1 space-y-6">
               <div className="p-4 sm:p-6 text-center sm:text-right">
                 <div className="flex justify-center sm:justify-end">
-                  <img src="/icon1.png" alt="Mood Tracking Icon" />
+                  <img src="/icon1.png" alt="Mood Tracking Icon" data-aos="fade-right" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white mb-2">
                   Mood Tracking
@@ -46,7 +46,7 @@ const FeaturesSection = () => {
               </div>
             </div>
 
-             <div className="flex-shrink-0 relative -top-12 sm:-top-24">
+             <div className="flex-shrink-0 relative sm:-top-24">
               <div className="shadow-lg rounded-xl overflow-hidden">
                 <img
                   src="/iPhone 15.png"

@@ -26,9 +26,8 @@ const HealthJourney = () => {
           <div className="flex gap-2 md:gap-6 mt-6 md:mt-12 mq450:mb-7">
             <Dialog>
               <DialogTrigger asChild>
-                <button className="relative inline-flex h-auto overflow-hidden border border-white rounded-[8px] p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 playStoreBtn">
-                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#F43F5E_0%,#FB923C_50%,#F43F5E_100%)]" />
-                  <span className="inline-flex h-[61px] w-full gap-1 md:gap-[14px] cursor-pointer items-center justify-center rounded-[8px] bg-gradient-to-r from-orange-500 to-yellow-500 py-2 md:py-[15px] px-3 md:px-[21px] text-sm font-medium text-white backdrop-blur-3xl">
+                <button className="relative inline-flex h-auto overflow-hidden bg-gradient-to-r from-orange-500 to-yellow-500 border-2 border-white rounded-[8px]">
+                  <span className="inline-flex h-[61px] w-full gap-1 md:gap-[14px] cursor-pointer items-center justify-center rounded-[8px]  py-2 md:py-[15px] px-3 md:px-[21px] text-sm font-medium text-white backdrop-blur-3xl">
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +48,7 @@ const HealthJourney = () => {
                       </svg>
                     </span>
                     <div className="flex flex-col justify-center items-start">
-                      <span className="text-[8px] md:text-[9px] text-[#A3A3A3] font-bold leading-[13px]">
+                      <span className="text-[8px] md:text-[9px] text-white font-bold leading-[13px]">
                         Download on the
                       </span>
                       <span className="text-[18px] md:text-[22px] text-[#F5F5F5] font-bold md:leading-[150%]">
@@ -73,9 +72,8 @@ const HealthJourney = () => {
 
             <Dialog>
               <DialogTrigger asChild>
-                <button className="relative inline-flex h-auto overflow-hidden border border-white rounded-[8px] p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 playStoreBtn">
-                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#F43F5E_0%,#FB923C_50%,#F43F5E_100%)]" />
-                  <span className="inline-flex h-[61px] w-full gap-1 md:gap-[14px] cursor-pointer items-center justify-center rounded-[8px] bg-gradient-to-r from-orange-500 to-yellow-500 py-2 md:py-[15px] px-3 md:px-[21px] text-sm font-medium text-white backdrop-blur-3xl">
+                <button className="relative inline-flex h-auto bg-gradient-to-r from-orange-600 to-yellow-500 overflow-hidden border-2 border-white rounded-[8px]">
+                  <span className="inline-flex h-[61px] w-full gap-1 md:gap-[14px] cursor-pointer items-center justify-center rounded-[8px]  py-2 md:py-[15px] px-3 md:px-[21px] text-sm font-medium text-white  ">
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +102,7 @@ const HealthJourney = () => {
                       </svg>
                     </span>
                     <div className="flex flex-col justify-center items-start">
-                      <span className="text-[8px] md:text-[9px] text-[#A3A3A3] font-bold leading-[13px]">
+                      <span className="text-[8px] md:text-[9px] text-white font-bold leading-[13px]">
                         Get it on
                       </span>
                       <span className="text-[18px] md:text-[22px] text-[#F5F5F5] font-bold md:leading-[150%]">
@@ -137,24 +135,25 @@ const HealthJourney = () => {
                 className="z-0"
               />
             </div>
-            <img
-              src="/Mockup Mobile.png"
-              alt="Mobile Mockup"
-              className="absolute w-[75%] h-auto top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:w-[75%] md:w-[75%] lg:w-[75%] z-10"
-            />
+            <div>
+              <img
+                src="/Mockup Mobile.png"
+                alt="Mobile Mockup"
+                className="absolute w-[75%] z-[1]  h-auto top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 sm:w-[75%] md:w-[75%] lg:w-[75%]"
+              />
+              <img
+                src="/Circle (1).png"
+                alt="Decorative Circle 1"
+                className="absolute w-16 sm:w-20 animate-floating md:w-24 top-[50%] left-[5%] md:left-[5%] transform -translate-y-1/2 z-40"
+              />
+
+              <img
+                src="/Circle (2).png"
+                alt="Decorative Circle 2"
+                className="absolute w-16 sm:w-20 animate-floating md:w-24 top-[70%] left-[30%] md:left-[30%] transform -translate-y-1/2 z-40"
+              />
+            </div>
           </div>
-
-          <img
-            src="/Circle (1).png"
-            alt="Decorative Circle 1"
-            className="absolute w-16 sm:w-20 md:w-24 top-[66%] left-[30%] md:left-[15%] transform -translate-y-1/2 z-40"
-          />
-
-          <img
-            src="/Circle (2).png"
-            alt="Decorative Circle 2"
-            className="absolute w-16 sm:w-20 md:w-24 top-[82%] left-[30%] md:left-[35%] transform -translate-y-1/2 z-40"
-          />
         </div>
       </div>
     </section>

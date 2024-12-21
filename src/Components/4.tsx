@@ -22,7 +22,7 @@ export default function Download() {
             <div className="flex gap-2 md:gap-6 mt-6 md:mt-12 mq450:mb-7">
               <Dialog>
                 <DialogTrigger asChild>
-                  <button className="relative inline-flex h-auto overflow-hidden bg-gradient-to-r from-orange-500 to-yellow-500 border-2 border-white rounded-[8px]">
+                  <button className="relative inline-flex h-auto overflow-hidden bg-gradient-to-r from-orange-600 to-yellow-500 border-2 border-white rounded-[8px]">
                     <span className="inline-flex h-[61px] w-full gap-1 md:gap-[14px] cursor-pointer items-center justify-center rounded-[8px]  py-2 md:py-[15px] px-3 md:px-[21px] text-sm font-medium text-white backdrop-blur-3xl">
                       <span>
                         <svg
@@ -122,8 +122,8 @@ export default function Download() {
             </div>
           </div>
 
-          <div className="relative -top-12 sm:-top-24">
-            <img src="/Mockup Mobile.png" alt="none" className="ml-10" />
+          <div className="relative  sm:-top-24 md:-top-24 lg:-top-24 top-2">
+            <img src="/Mockup Mobile.png" alt="none" className="sm:mt-10" />
           </div>
 
           {/* <div className="md:absolute md:top-[-15%] md:right-[5%]">
