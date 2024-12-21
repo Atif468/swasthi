@@ -17,9 +17,9 @@ function App() {
       <FeaturesSection />
       <DetailedProgress />
       <HowitWorks />
-      <Download />
       <PricingTitle />
       <Pricing />
+       <Download />
       <Footer />
      </>
   );
