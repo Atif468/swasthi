@@ -54,25 +54,25 @@ export default function HowitWorks() {
             </div>
           </div>
           <div className="m-auto">
-            <img
+             <img
               src="/Rectangle 7.png"
               alt="rectangle"
-              className="ml-20 absolute mt-4"
+              className="absolute mt-4"
             />
             <img
               src="/Circle1.png"
               alt="circle1"
-              className="h-[60px] w-[60px] rounded-full relative z-10  ml-12 mt-[100px]"
+              className=" rounded-full relative z-10 -ml-6 mt-[60px]"
             />
             <img
               src="/Circle2.png"
               alt="circle2"
-              className="h-[60px] w-[60px] rounded-full relative z-10 my-[120px] ml-12"
+              className="  rounded-full relative z-10 my-[120px] -ml-6"
             />
             <img
               src="/Circle3.png"
               alt="circle3"
-              className="h-[60px] w-[60px] rounded-full relative z-10 mb-[50px] ml-12"
+              className=" rounded-full relative z-10 mb-[50px] -ml-6"
             />
           </div>
           <div className="w-[300px] space-y-14">

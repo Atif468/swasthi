@@ -5,7 +5,8 @@ import Footer from "./Components/Footer";
 import Download from "./Components/4";
 import DetailedProgress from "./Components/3";
 import HowitWorks from "./Components/HowitWorks";
-
+import PricingTitle from "./Components/PricingTitle";
+import Pricing from "./Components/Prices";
 
 function App() {
    
@@ -17,6 +18,8 @@ function App() {
       <DetailedProgress />
       <HowitWorks />
       <Download />
+      <PricingTitle />
+      <Pricing />
       <Footer />
      </>
   );
